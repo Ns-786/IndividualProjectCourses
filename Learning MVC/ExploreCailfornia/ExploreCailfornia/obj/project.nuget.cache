@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ICx7mPoLjKZIfNqWcfCTF4E7DHMTFDW+2n2UmF3XTLeDfb7BatdxoNaLIY6ZsvwJPXOg+kc6Aoumi5i19y45bQ==",
+  "dgSpecHash": "23ZRR5NGHOMtdvzXUQu2pFeKDzJ1ySntfk/vi2/PM00K4tjRGN3mgQCtYX1Nt/kJZvof4zduoHM6LRrMmamTnA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ybhal\\source\\repos\\Ns-786\\IndividualProjectCourses\\Learning MVC\\ExploreCailfornia\\ExploreCailfornia\\ExploreCailfornia.csproj",
+  "projectFilePath": "C:\\Users\\ybhal\\Source\\Repos\\Ns-786\\IndividualProjectCourses\\Learning MVC\\ExploreCailfornia\\ExploreCailfornia\\ExploreCailfornia.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore\\2.2.0\\microsoft.aspnetcore.2.2.0.nupkg.sha512",
