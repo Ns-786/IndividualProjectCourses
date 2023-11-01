@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\Learning MVC",
-    "\\Learning MVC\\ExploreCailfornia"
+    "\\Learning MVC\\ExploreCailfornia",
+    "\\Learning MVC\\ExploreCailfornia\\ExploreCailfornia"
   ],
-  "SelectedNode": "\\Learning MVC\\ExploreCailfornia\\ExploreCailfornia.sln",
+  "SelectedNode": "\\Learning MVC\\ExploreCailfornia\\ExploreCailfornia\\Startup.cs",
   "PreviewInSolutionExplorer": false
 }

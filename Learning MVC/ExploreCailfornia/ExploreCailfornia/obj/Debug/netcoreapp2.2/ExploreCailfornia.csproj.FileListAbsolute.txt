@@ -16,3 +16,12 @@ C:\Users\ybhal\Source\Repos\Ns-786\IndividualProjectCourses\Learning MVC\Explore
 C:\Users\ybhal\Source\Repos\Ns-786\IndividualProjectCourses\Learning MVC\ExploreCailfornia\ExploreCailfornia\obj\Debug\netcoreapp2.2\ExploreCailfornia.dll
 C:\Users\ybhal\Source\Repos\Ns-786\IndividualProjectCourses\Learning MVC\ExploreCailfornia\ExploreCailfornia\obj\Debug\netcoreapp2.2\ExploreCailfornia.pdb
 C:\Users\ybhal\Source\Repos\Ns-786\IndividualProjectCourses\Learning MVC\ExploreCailfornia\ExploreCailfornia\obj\Debug\netcoreapp2.2\ExploreCailfornia.genruntimeconfig.cache
+C:\Users\ybhal\Source\Repos\Ns-786\IndividualProjectCourses\Learning MVC\ExploreCailfornia\ExploreCailfornia\bin\Debug\netcoreapp2.2\ExploreCailfornia.Views.dll
+C:\Users\ybhal\Source\Repos\Ns-786\IndividualProjectCourses\Learning MVC\ExploreCailfornia\ExploreCailfornia\bin\Debug\netcoreapp2.2\ExploreCailfornia.Views.pdb
+C:\Users\ybhal\Source\Repos\Ns-786\IndividualProjectCourses\Learning MVC\ExploreCailfornia\ExploreCailfornia\obj\Debug\netcoreapp2.2\ExploreCailfornia.TagHelpers.input.cache
+C:\Users\ybhal\Source\Repos\Ns-786\IndividualProjectCourses\Learning MVC\ExploreCailfornia\ExploreCailfornia\obj\Debug\netcoreapp2.2\ExploreCailfornia.TagHelpers.output.cache
+C:\Users\ybhal\Source\Repos\Ns-786\IndividualProjectCourses\Learning MVC\ExploreCailfornia\ExploreCailfornia\obj\Debug\netcoreapp2.2\ExploreCailfornia.RazorCoreGenerate.cache
+C:\Users\ybhal\Source\Repos\Ns-786\IndividualProjectCourses\Learning MVC\ExploreCailfornia\ExploreCailfornia\obj\Debug\netcoreapp2.2\Razor\Views\Home\index.cshtml.g.cs
+C:\Users\ybhal\Source\Repos\Ns-786\IndividualProjectCourses\Learning MVC\ExploreCailfornia\ExploreCailfornia\obj\Debug\netcoreapp2.2\ExploreCailfornia.RazorTargetAssemblyInfo.cs
+C:\Users\ybhal\Source\Repos\Ns-786\IndividualProjectCourses\Learning MVC\ExploreCailfornia\ExploreCailfornia\obj\Debug\netcoreapp2.2\ExploreCailfornia.Views.pdb
+C:\Users\ybhal\Source\Repos\Ns-786\IndividualProjectCourses\Learning MVC\ExploreCailfornia\ExploreCailfornia\obj\Debug\netcoreapp2.2\ExploreCailfornia.csproj.CopyComplete
