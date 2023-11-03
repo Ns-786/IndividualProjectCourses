@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace ExploreCailfornia.Controllers
 {
-    public class HomeController 
+    public class HomeController : Controller
     {
         public IActionResult Index()
         {
-            return new ContentResult { Content = "Hello, ASP.NET.Core MVC!" };
+            return View();
         }
 
 
