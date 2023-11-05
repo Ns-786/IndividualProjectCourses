@@ -1,7 +1,13 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Learning MVC",
+    "\\Learning MVC\\ExploreCailfornia",
+    "\\Learning MVC\\ExploreCailfornia\\ExploreCailfornia",
+    "\\Learning MVC\\ExploreCailfornia\\ExploreCailfornia\\Controllers",
+    "\\Learning MVC\\ExploreCailfornia\\ExploreCailfornia\\Views",
+    "\\Learning MVC\\ExploreCailfornia\\ExploreCailfornia\\Views\\Home"
   ],
-  "SelectedNode": "\\ExploreCailfornia.sln",
+  "SelectedNode": "\\Learning MVC\\ExploreCailfornia\\ExploreCailfornia\\Views\\Blog",
   "PreviewInSolutionExplorer": false
 }

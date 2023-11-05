@@ -15,6 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Views\Blogg\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
 
