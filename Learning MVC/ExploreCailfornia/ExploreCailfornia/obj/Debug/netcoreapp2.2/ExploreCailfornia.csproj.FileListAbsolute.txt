@@ -25,3 +25,4 @@ C:\Users\ybhal\Source\Repos\Ns-786\IndividualProjectCourses\Learning MVC\Explore
 C:\Users\ybhal\Source\Repos\Ns-786\IndividualProjectCourses\Learning MVC\ExploreCailfornia\ExploreCailfornia\obj\Debug\netcoreapp2.2\ExploreCailfornia.RazorTargetAssemblyInfo.cs
 C:\Users\ybhal\Source\Repos\Ns-786\IndividualProjectCourses\Learning MVC\ExploreCailfornia\ExploreCailfornia\obj\Debug\netcoreapp2.2\ExploreCailfornia.Views.pdb
 C:\Users\ybhal\Source\Repos\Ns-786\IndividualProjectCourses\Learning MVC\ExploreCailfornia\ExploreCailfornia\obj\Debug\netcoreapp2.2\ExploreCailfornia.csproj.CopyComplete
+C:\Users\ybhal\Source\Repos\Ns-786\IndividualProjectCourses\Learning MVC\ExploreCailfornia\ExploreCailfornia\obj\Debug\netcoreapp2.2\Razor\Views\Index.cshtml.g.cs
