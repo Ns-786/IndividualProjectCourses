@@ -15,6 +15,7 @@ namespace ExploreCalifornia.Controllers
         {
             return View();
         }
+       
 
         [Route(@"{year:min(2000)}/{month:range(1,12)}/{key}")]
         public IActionResult Post(int year, int month, string key)
@@ -30,7 +31,10 @@ namespace ExploreCalifornia.Controllers
            
             return View(post);
         }
-
-        
+        [Route("create")]
+        public IActionResult Create()
+        {
+            return View();
+        }
     }
 }
