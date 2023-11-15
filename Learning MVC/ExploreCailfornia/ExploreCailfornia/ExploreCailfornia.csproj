@@ -6,6 +6,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Views\Blogg\**" />
+    <Content Remove="Views\Blogg\**" />
+    <EmbeddedResource Remove="Views\Blogg\**" />
+    <None Remove="Views\Blogg\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Remove="Views\shared\_Layout.cshtml" />
   </ItemGroup>
 
@@ -15,7 +22,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Views\Blogg\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
 

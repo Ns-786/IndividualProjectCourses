@@ -31,7 +31,6 @@ namespace ExploreCalifornia
                 DeveloperExceptions = configuration.GetValue<bool>("FeatureToggles:DeveloperExceptions")
             });
 
-
             services.AddDbContext<BlogDataContext>(options =>
             {
                 var connectionString = configuration.GetConnectionString("BlogDataContext");

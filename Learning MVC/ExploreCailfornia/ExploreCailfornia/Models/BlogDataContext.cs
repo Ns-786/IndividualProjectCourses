@@ -12,7 +12,7 @@ namespace ExploreCailfornia.Models
     {
         public DbSet<Post> Posts { get; set; }
         public BlogDataContext(DbContextOptions<BlogDataContext> options)
-           : base(options)
+            : base(options)
         {
             Database.EnsureCreated();
         }
