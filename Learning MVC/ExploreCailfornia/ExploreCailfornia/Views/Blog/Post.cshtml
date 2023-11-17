@@ -2,11 +2,13 @@
 @{
     Layout = "_Layout";
 }
-<articale class="blog-post">
+
+<article class="blog-post">
     <h1>@Model.Title</h1>
     <div class="details">
         Posted <span>@Model.Posted</span> by <span>@Model.Author</span>
     </div>
-    <divclass="content">
+    <div class="content">
         @Model.Body
-</articale>
+    </div>
+</article>
