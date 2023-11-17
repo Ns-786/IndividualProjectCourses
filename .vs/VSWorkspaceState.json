@@ -6,10 +6,11 @@
     "\\Learning MVC\\ExploreCailfornia\\ExploreCailfornia",
     "\\Learning MVC\\ExploreCailfornia\\ExploreCailfornia\\Controllers",
     "\\Learning MVC\\ExploreCailfornia\\ExploreCailfornia\\Models",
+    "\\Learning MVC\\ExploreCailfornia\\ExploreCailfornia\\Views",
     "\\Learning MVC\\ExploreCailfornia\\ExploreCailfornia\\Views\\Blog",
     "\\Learning MVC\\ExploreCailfornia\\ExploreCailfornia\\Views\\Home",
     "\\Learning MVC\\ExploreCailfornia\\ExploreCailfornia\\Views\\shared"
   ],
-  "SelectedNode": "\\Learning MVC\\ExploreCailfornia\\ExploreCailfornia\\Startup.cs",
+  "SelectedNode": "\\Learning MVC\\ExploreCailfornia\\ExploreCailfornia\\Views\\Blog\\Create.cshtml",
   "PreviewInSolutionExplorer": false
 }
