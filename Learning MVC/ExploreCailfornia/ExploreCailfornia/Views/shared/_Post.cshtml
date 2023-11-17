@@ -1,14 +1,14 @@
-﻿@inject ExploreCailfornia.Models.FormattingService Formate
+﻿@inject ExploreCailfornia.Models.FormattingService Format
 @model ExploreCailfornia.Models.Post
 
 <article class="blog-post">
     <h1>
         @Html.ActionLink(Model.Title, "Post", "Blog",
-        new { year = Model.Posted.Year, month = Model.Posted.Month, key = Model.Key }
+            new { year = Model.Posted.Year, month = Model.Posted.Month, key = Model.Key }
         )
     </h1>
     <div class="details">
-        Posted <span>@Formate.AsReadableDate(Model.Posted)</span> by <span>@Model.Author</span>
+        Posted <span>@Format.AsReadableDate(Model.Posted)</span> by <span>@Model.Author</span>
     </div>
     <div class="content">
         @Model.Body

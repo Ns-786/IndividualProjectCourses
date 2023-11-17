@@ -27,6 +27,7 @@ namespace ExploreCalifornia
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddTransient<FormattingService>();
+
             services.AddTransient<FeatureToggles>(x => new FeatureToggles
             {
                 DeveloperExceptions = configuration.GetValue<bool>("FeatureToggles:DeveloperExceptions")

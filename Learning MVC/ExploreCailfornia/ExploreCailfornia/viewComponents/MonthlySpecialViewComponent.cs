@@ -2,16 +2,26 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ExploreCailfornia.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace ExploreCailfornia.viewComponents
-{   
+namespace ExploreCalifornia.ViewComponents
+{
     [ViewComponent]
-    public class MonthlySpecialViewComponent: ViewComponent
+    public class MonthlySpecialsViewComponent : ViewComponent
     {
-        public string Invoke()
+        private readonly BlogDataContext db;
+
+        public MonthlySpecialsViewComponent(BlogDataContext db)
         {
-            return "TODO: Show monthly special";
+            this.db = db;
         }
+
+        public IViewComponentResult Invoke()
+        {
+            var specials = db.MonthlySpecials.ToArray();
+            return View(specials);
+        }
+
     }
 }
