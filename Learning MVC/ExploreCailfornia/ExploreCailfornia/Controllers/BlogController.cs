@@ -52,13 +52,13 @@ namespace ExploreCalifornia.Controllers
             var post = _db.Posts.FirstOrDefault(x => x.Key == key);
             return View(post);
         }
-
+         [Athorize]
         [HttpGet, Route("create")]
         public IActionResult Create()
         {
             return View();
         }
-
+         [Athorize]
         [HttpPost, Route("create")]
         public IActionResult Create(Post post)
         {
