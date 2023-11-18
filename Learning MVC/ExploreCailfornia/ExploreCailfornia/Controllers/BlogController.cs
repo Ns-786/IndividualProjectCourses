@@ -58,6 +58,7 @@ namespace ExploreCalifornia.Controllers
         {
             return View();
         }
+
          [Athorize]
         [HttpPost, Route("create")]
         public IActionResult Create(Post post)
