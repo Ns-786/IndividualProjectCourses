@@ -7,10 +7,10 @@
     "\\Learning MVC\\ExploreCailfornia\\ExploreCailfornia\\Views",
     "\\Learning MVC\\ExploreCailfornia\\ExploreCailfornia\\Views\\Blog",
     "\\Learning MVC\\ExploreCailfornia\\ExploreCailfornia\\Views\\Home",
-    "\\Learning MVC\\ExploreCailfornia\\ExploreCailfornia\\Views\\shared",
-    "\\Learning MVC\\ExploreCailfornia\\ExploreCailfornia\\Views\\shared\\components",
-    "\\Learning MVC\\ExploreCailfornia\\ExploreCailfornia\\Views\\shared\\components\\MonthlySpecials"
+    "\\Learning MVC\\ExploreCailfornia\\ExploreCailfornia\\Views\\Shared",
+    "\\Learning MVC\\ExploreCailfornia\\ExploreCailfornia\\Views\\Shared\\Components",
+    "\\Learning MVC\\ExploreCailfornia\\ExploreCailfornia\\Views\\Shared\\Components\\MonthlySpecials"
   ],
-  "SelectedNode": "\\Learning MVC\\ExploreCailfornia\\ExploreCailfornia\\Views\\shared\\components",
+  "SelectedNode": "\\Learning MVC\\ExploreCailfornia\\ExploreCailfornia\\Views\\Shared\\Components\\MonthlySpecials\\Default.cshtml",
   "PreviewInSolutionExplorer": false
 }
