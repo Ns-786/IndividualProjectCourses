@@ -29,3 +29,5 @@ C:\Users\ybhal\Source\Repos\Ns-786\IndividualProjectCourses\Learning MVC\Explore
 C:\Users\ybhal\Source\Repos\Ns-786\IndividualProjectCourses\Learning MVC\ExploreCailfornia\ExploreCailfornia\obj\Debug\netcoreapp2.2\Razor\Views\Blog\Post.cshtml.g.cs
 C:\Users\ybhal\Source\Repos\Ns-786\IndividualProjectCourses\Learning MVC\ExploreCailfornia\ExploreCailfornia\obj\Debug\netcoreapp2.2\Razor\Views\Blog\Create.cshtml.g.cs
 C:\Users\ybhal\Source\Repos\Ns-786\IndividualProjectCourses\Learning MVC\ExploreCailfornia\ExploreCailfornia\obj\Debug\netcoreapp2.2\Razor\Views\shared\_Post.cshtml.g.cs
+C:\Users\ybhal\Source\Repos\Ns-786\IndividualProjectCourses\Learning MVC\ExploreCailfornia\ExploreCailfornia\obj\Debug\netcoreapp2.2\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\ybhal\Source\Repos\Ns-786\IndividualProjectCourses\Learning MVC\ExploreCailfornia\ExploreCailfornia\obj\Debug\netcoreapp2.2\Razor\Views\Account\Login.cshtml.g.cs
