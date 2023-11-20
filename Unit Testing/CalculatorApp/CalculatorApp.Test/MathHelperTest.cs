@@ -65,5 +65,14 @@ namespace CalculatorApp.Test
             Assert.Equal(expectedValue, result);
         }
 
+        [Theory(Skip = "This is just a reason...")]
+        [ClassData(typeof(MathFormulas))]
+        public void Add_ClassData_Test(int x, int y, int expectedValue)
+        {
+            var calculator = new MathFormulas();
+            var result = calculator.Diff(x, y);
+            Assert.Equal(expectedValue, result);
+        }
+
     } 
 }

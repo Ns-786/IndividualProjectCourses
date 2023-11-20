@@ -10,7 +10,7 @@ namespace CalculatorApp
 
         public int Diff(int x, int y) => y - x;
 
-        public int Add(int x, int y) => x + y;
+        public int Add(int x, int y) => x + y ;
 
         public int Sum(params int[] values)
         {
