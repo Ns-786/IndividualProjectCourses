@@ -2,6 +2,7 @@ using Library.API.Controllers;
 using Library.API.Data.Models;
 using Library.API.Data.Services;
 using Microsoft.AspNetCore.Mvc;
+using System.Linq;
 using System.Net;
 using Xunit;
 
@@ -36,7 +37,7 @@ namespace LibraryAPI.Test
 
         [Theory]
         [InlineData("ab2bd817-98cd-4cf3-a80a-53ea0cd9c200", "ab2bd817-98cd-4cf3-a80a-53ea0cd9c111")]
-        public void GetBookByIdTest(string guid1, string guid2)
+        public void RemoveByIdTest(string guid1, string guid2)
         {
             //arrange
             var validGuid = new Guid(guid1);
@@ -99,5 +100,27 @@ namespace LibraryAPI.Test
             //assert
             Assert.IsType<BadRequestObjectResult>(badResponse);
         }
+        [Theory]
+        [InlineData("ab2bd817-98cd-4cf3-a80a-53ea0cd9c200", "ab2bd817-98cd-4cf3-a80a-53ea0cd9c111")]
+        public void RemoveBookByIdTest(string guid1, string guid2)
+        {
+            //arrange
+            var validGuid = new Guid(guid1);
+            var invalidGuid = new Guid(guid2);
+
+            //act
+            var notFoundResult = _controller.Remove(invalidGuid);
+            //assert
+            Assert.IsType<NotFoundResult>(notFoundResult);
+            Assert.Equal(5, _service.GetAll().Count());
+
+            var okResult = _controller.Remove(validGuid);
+            Assert.IsType<OkObjectResult>(okResult);
+            Assert.Equal(4, _service.GetAll().Count());
+
+
+
+        }
+
     }
 }
