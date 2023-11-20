@@ -19,41 +19,50 @@ namespace CalculatorApp.Test
         [Theory]
         [InlineData(1, 2, 1)]
         [InlineData(1, 3, 1)]
-        public void DiffTest(int x, int y, int expectedVlue)
+        public void DiffTest(int x, int y, int expectedValue)
         {
             var calculator = new MathFormulas();
             var result = calculator.Diff(x, y);
-            Assert.Equal(result, expectedVlue);    
+            Assert.Equal(expectedValue, result);
         }
 
         [Theory]
         [InlineData(1, 2, 3)]
         [InlineData(-4, -6, -10)]
-        public void AddTest(int x, int y, int expectedVlue)
+        public void AddTest(int x, int y, int expectedValue)
         {
             var calculator = new MathFormulas();
             var result = calculator.Add(x, y);
-            Assert.Equal(result, expectedVlue);
+            Assert.Equal(expectedValue, result);
         }
 
         [Theory]
         [InlineData(new int[3] { 1,2,3,}, 6)]
         [InlineData(new int[3] { -4,-6,-10}, -20)]
-        public void SumTest(int[] values, int expectedvlue) 
+        public void SumTest(int[] values, int expectedValue) 
         {
             var calculator = new MathFormulas();
             var result = calculator.Sum(values);
-            Assert.Equal(result, expectedvlue);
+            Assert.Equal(expectedValue, result);
         }
 
         [Theory]
         [InlineData(new int[3] { 1, 2, 3, }, 2)]
         [InlineData(new int[3] { -4, -6, -10 }, -6)]
-        public void AverageTest(int[] values, int expectedvlue)
+        public void AverageTest(int[] values, int expectedValue)
         {
             var calculator = new MathFormulas();
             var result = calculator.Average(values);
-            Assert.Equal(result, expectedvlue);
+            Assert.Equal(expectedValue, result);
+        }
+
+        [Theory]
+        [MemberData(nameof(MathFormulas.Data), MemberType = typeof(MathFormulas))]
+        public void Add_MemberData_Test(int x, int y, int expectedValue)
+        {
+            var calculator = new MathFormulas();
+            var result = calculator.Diff(x, y);
+            Assert.Equal(expectedValue, result);
         }
 
     } 
