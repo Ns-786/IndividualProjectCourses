@@ -27,12 +27,32 @@ namespace CalculatorApp.Test
         }
 
         [Theory]
+        [InlineData(1, 2, 3)]
+        [InlineData(-4, -6, -10)]
+        public void AddTest(int x, int y, int expectedVlue)
+        {
+            var calculator = new MathFormulas();
+            var result = calculator.Add(x, y);
+            Assert.Equal(result, expectedVlue);
+        }
+
+        [Theory]
         [InlineData(new int[3] { 1,2,3,}, 6)]
         [InlineData(new int[3] { -4,-6,-10}, -20)]
         public void SumTest(int[] values, int expectedvlue) 
         {
             var calculator = new MathFormulas();
             var result = calculator.Sum(values);
+            Assert.Equal(result, expectedvlue);
+        }
+
+        [Theory]
+        [InlineData(new int[3] { 1, 2, 3, }, 2)]
+        [InlineData(new int[3] { -4, -6, -10 }, -6)]
+        public void AverageTest(int[] values, int expectedvlue)
+        {
+            var calculator = new MathFormulas();
+            var result = calculator.Average(values);
             Assert.Equal(result, expectedvlue);
         }
 
