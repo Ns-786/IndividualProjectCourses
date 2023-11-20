@@ -2,6 +2,7 @@ using Library.API.Controllers;
 using Library.API.Data.Models;
 using Library.API.Data.Services;
 using Microsoft.AspNetCore.Mvc;
+using System.Net;
 using Xunit;
 
 namespace LibraryAPI.Test
@@ -58,6 +59,45 @@ namespace LibraryAPI.Test
             Assert.Equal("Managing Oneself", bookItem.Title);
 
 
+        }
+
+        [Fact]
+        public void AddBookTest()
+        {
+            //arrange
+            var completeBook = new Book()
+            {
+                Author = "Author",
+                Title = "Title",
+                Description = "Description"
+            };
+            //act
+            var createdResponse = _controller.Post(completeBook);
+            //assert
+            Assert.IsType<CreatedAtActionResult>(createdResponse);
+
+            var item = createdResponse as CreatedAtActionResult;
+            Assert.IsType<Book>(item.Value);
+
+            var bookItem = item.Value as Book;
+            Assert.Equal(completeBook.Author, bookItem.Author);
+            Assert.Equal(completeBook.Title, bookItem.Title);
+            Assert.Equal(completeBook.Description, bookItem.Description);
+
+            //arrange
+            var incompleteBook = new Book()
+
+            {
+                Author = "Author",
+                Title = "Title",
+                Description = "Description"
+            };
+
+            //act
+            _controller.ModelState.AddModelError("Title", "Title is a required field");
+            var badResponse = _controller.Post(incompleteBook);
+            //assert
+            Assert.IsType<BadRequestObjectResult>(badResponse);
         }
     }
 }
