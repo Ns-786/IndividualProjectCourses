@@ -1,12 +1,14 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Learning MVC",
+    "\\Learning MVC\\ExploreCailfornia",
     "\\Learning MVC\\ExploreCailfornia\\ExploreCailfornia",
     "\\Learning MVC\\ExploreCailfornia\\ExploreCailfornia\\Views",
     "\\Learning MVC\\ExploreCailfornia\\ExploreCailfornia\\Views\\Blog",
     "\\Unit Testing",
     "\\Unit Testing\\Library.API"
   ],
-  "SelectedNode": "\\Unit Testing\\CalculatorApp",
+  "SelectedNode": "\\Unit Testing\\Library.API\\LibraryApp.sln",
   "PreviewInSolutionExplorer": false
 }
